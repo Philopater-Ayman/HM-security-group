@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - HM Security Group</title>
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">
+                <img src="images/logo.png" alt="HM Security Group Logo" class="logo-img">
+                <span>HM Security Group</span>
+            </a>
+            <div class="mobile-menu">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html" class="cta-nav" class="active">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Contact Us</h1>
+                <p>Get in touch with us for any inquiries or assistance.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section class="contact">
+        <div class="container">
+            <div class="contact-wrapper">
+                <!-- Contact Form -->
+                <div class="contact-form">
+                    <h2>Get In Touch</h2>
+                    <p>Have a question or need a consultation? Fill out the form below, and our team will get back to you shortly.</p>
+                    <form action="#" method="POST">
+                        <div class="form-group">
+                            <input type="text" name="first_name" placeholder="First Name" required>
+                            <input type="text" name="last_name" placeholder="Last Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name="email" placeholder="Email Address" required>
+                            <input type="tel" name="phone" placeholder="Phone Number" required>
+                        </div>
+
+                        <!-- Service Selection -->
+                        <div class="services-selection">
+                            <h3>Select Services of Interest</h3>
+                            <div class="checkbox-list">
+                                <label><input type="checkbox" name="services" value="Hospitality Security"> Hospitality Security</label>
+                                <label><input type="checkbox" name="services" value="Crowd & Event Control"> Crowd & Event Control</label>
+                                <label><input type="checkbox" name="services" value="Construction Site Protection"> Construction Site Protection</label>
+                                <label><input type="checkbox" name="services" value="Private Event Security"> Private Event Security</label>
+                                <label><input type="checkbox" name="services" value="Corporate Security"> Corporate Security</label>
+                                <label><input type="checkbox" name="services" value="Nightclub & Bar Security"> Nightclub & Bar Security</label>
+                                <label><input type="checkbox" name="services" value="Mall Security"> Mall Security</label>
+                                <label><input type="checkbox" name="services" value="CCTV Surveillance"> CCTV Surveillance</label>
+                                <label><input type="checkbox" name="services" value="Mobile Patrol"> Mobile Patrol</label>
+                            </div>
+                        </div>
+
+                        <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+                        <button type="submit" class="cta-btn">Send Message</button>
+                    </form>
+                </div>
+
+                <!-- Contact Details -->
+                <div class="contact-details">
+                    <h2>Contact Details</h2>
+                    <p><i class="fas fa-phone"></i> +61410832005</p>
+                    <p><i class="fas fa-envelope"></i> admin@hmsecuritygroup.com.au</p>
+                    <p><i class="fas fa-clock"></i> 24/7 Support Available</p>
+
+                    <h2>Licenses</h2>
+                    <p><strong>Business Licence Number:</strong> Z56-778-70S</p>
+                    <p><strong>ABN:</strong> 20679 460 747</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    
+<!-- Footer -->
+<footer class="footer">
+    <div class="footer-overlay"></div> <!-- Background Overlay -->
+    <div class="container">
+        <div class="footer-content">
+            <!-- Logo and About -->
+            <div class="footer-about">
+                <div class="footer-logo">
+                    <img src="images/logo.png" alt="HM Security Group Logo">
+                    <h4>HM Security Group</h4>
+                </div>
+                <p>Professional security services providing comprehensive protection and peace of mind.</p>
+            </div>
+
+            <!-- Quick Links -->
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+
+            <!-- Our Services -->
+            <div class="footer-services">
+                <h4>Our Services</h4>
+                <ul>
+                    <li>Hospitality Security</li>
+                    <li>Crowd & Event Control</li>
+                    <li>Construction Site Protection</li>
+                    <li>Private Event Security</li>
+                </ul>
+            </div>
+
+            <!-- Contact Information -->
+            <div class="footer-contact">
+                <h4>Contact Information</h4>
+                <ul>
+                    <li><i class="fas fa-phone"></i> +61410832005</li>
+                    <li><i class="fas fa-envelope"></i> admin@hmsecuritygroup.com.au</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Copyright and Legal Links -->
+        <div class="footer-bottom">
+            <p>© 2024 HM Security Group. All Rights Reserved.</p>
+        </div>
+    </div>
+</footer>
+
+    <script src="js/contact.js"></script>
+</body>
+</html>
